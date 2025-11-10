@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "emptyitemstackfix",
+  "version": "${version}",
+  "name": "Empty ItemStack Fix",
+  "description": "A Fabric mod that fixes empty ItemStack issues",
+  "authors": [
+    "maciejos21151337"
+  ],
+  "contact": {
+    "homepage": "https://github.com/maciejos21151337/-empty-itemstack-fix",
+    "sources": "https://github.com/maciejos21151337/-empty-itemstack-fix"
+  },
+  "license": "MIT",
+  "icon": "assets/emptyitemstackfix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.emptyitemstackfix.EmptyItemStackFix"
+    ]
+  },
+  "mixins": [
+    "mixins.emptyitemstackfix.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
